@@ -3,7 +3,7 @@
 ############################
 
 author:
-  name: "Qubt"
+  name: "Jan Henri Beyer"
   image: author.jpeg
   greeting: "A personal blog theme for Hugo :evergreen_tree:"
   icon: ":wave:"
@@ -13,11 +13,11 @@ author:
 ############################
 
 links:
-  - github: https://github.com/chrede88/qubt
-  - facebook: https://github.com/chrede88/qubt
+  - github: https://github.com/HenryORange
+  # - facebook:
   # - x-twitter:
   # - mastodon:
-  # - linkedin: 
+  - linkedin: https://www.linkedin.com/in/jan-henri-beyer-830519329/
   # - instagram:
   # - reddit: 
   # - telegram: 
@@ -65,7 +65,7 @@ links:
 ## OpenGraph & Twitter Cards
 ###############################
 
-title: "Qubt Theme"
-description: "Demo site build with Qubt & Hugo"
+title: "Personal Blog"
+description: "A personal blog showcasing some computer science projects"
 images:
   - thumbnail.jpeg
