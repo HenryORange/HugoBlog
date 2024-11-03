@@ -12,5 +12,5 @@ title: 'Personal Blog'
 enableEmoji: true
 disableKinds: ['taxonomy', 'term']
 languageCode: 'en-us'
-
+publishDir: 'docs'
 
