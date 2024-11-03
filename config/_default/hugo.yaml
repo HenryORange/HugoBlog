@@ -2,7 +2,7 @@
 ## CHANGE THESE
 ############################
 
-baseURL: 'https://chrede88.github.io/qubt'
+baseURL: 'https://HenryORange.github.io/HugoBlog'
 title: 'Personal Blog'
 
 ############################
@@ -13,4 +13,3 @@ enableEmoji: true
 disableKinds: ['taxonomy', 'term']
 languageCode: 'en-us'
 publishDir: 'docs'
-
