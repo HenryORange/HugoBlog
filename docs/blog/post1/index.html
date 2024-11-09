@@ -52,20 +52,20 @@
 
 <meta property="og:url" content="http://localhost:1313/HugoBlog/blog/post1/">
   <meta property="og:site_name" content="Personal Blog">
-  <meta property="og:title" content="Blog Post with Inline Images">
-  <meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
+  <meta property="og:title" content="Unity & Quest Setup">
+  <meta property="og:description" content="Setup of the Unity Hub and the Meta Quest 2 as well as implementation of Roll-a-Ball classically and in VR.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2023-11-24T00:00:00+00:00">
-    <meta property="article:modified_time" content="2023-11-24T00:00:00+00:00">
+    <meta property="article:published_time" content="2024-11-07T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-11-07T00:00:00+00:00">
     <meta property="og:image" content="http://localhost:1313/HugoBlog/thumbnail.jpeg">
 
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/HugoBlog/thumbnail.jpeg">
-  <meta name="twitter:title" content="Blog Post with Inline Images">
-  <meta name="twitter:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.">
+  <meta name="twitter:title" content="Unity & Quest Setup">
+  <meta name="twitter:description" content="Setup of the Unity Hub and the Meta Quest 2 as well as implementation of Roll-a-Ball classically and in VR.">
 
 
 <script>
@@ -159,22 +159,22 @@
   <div class="justify-left mx-auto mt-8 flex max-w-screen-md px-4">
     <article>
       <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
-        Blog Post with Inline Images
+        Unity & Quest Setup
       </h1>
       <h2 class="mt-4 text-2xl text-slate-500 dark:text-slate-400">
-        Blog post subtitle ⚡
+        Of Operating Systems and Registry Entries
       </h2>
       <div class="mb-4 mt-2 text-sm text-slate-500 dark:text-slate-400">
-        Nov 24, 2023 - 3 minute read
+        Nov 7, 2024 - 1 minute read
       </div>
 
       
         
         <div class="flex flex-col">
-          <img class="mt-4 h-full w-full object-cover" src="/HugoBlog/photo1_hu4344618066669205784.webp" alt="feature image" height="491" width="736" />
+          <img class="mt-4 h-full w-full object-cover" src="/HugoBlog/RollABallImage_hu3000990533968871935.webp" alt="feature image" height="736" width="736" />
           
             <span class="mb-4 mt-1 text-center text-sm text-slate-700 dark:text-slate-200">
-              Image caption
+              Roll-a-Ball in VR
             </span>
           
         </div>
@@ -183,59 +183,38 @@
       
 
       <span class="prose prose-slate break-words text-lg text-slate-700 dark:prose-invert prose-pre:max-w-[90vw] md:prose-pre:max-w-screen-md dark:text-slate-200">
-        <p>Use the shortcode &ldquo;figArray&rdquo; to add images to your blog post. Add your images to a subfolder. Call the figArray shortcode using the following syntax:</p>
-<pre tabindex="0"><code>{{&lt; figArray subfolder=&#34;&lt;subfoldername&gt;&#34; figCaption=&#34;Some caption&#34; numCols=2 &gt;}}
-</code></pre><p>Both &ldquo;figCaption&rdquo; and &ldquo;numCols&rdquo; are optional. The shortcode will try to guess the best number of columns to use for the array of figures if &ldquo;numCols&rdquo; is not passed.
-You will need one subfolder containing images per call to the shortcode. The image files need to be one of the following types: png, jpg, jpeg or webp.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-
-
-
-<div class="flex flex-col">
-  <div class="grid-cols-2 grid gap-1">
-    
-      
-      <img src="/HugoBlog/blog/post1/images/photo1_hu10289687690286389179.webp" alt="image" loading="lazy" />
-    
-      
-      <img src="/HugoBlog/blog/post1/images/photo2_hu12275213084617794856.webp" alt="image" loading="lazy" />
-    
-  </div>
-  
-    <span class="-mt-6 mb-4 text-center text-sm text-slate-700 dark:text-slate-200">
-      A nice figure caption 👋
-    </span>
-  
+        <p>This is a little rambling about the setup process of Unity and the Quest followed by the implementation of Roll-a-ball<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<h2 id="unityhub-or-it-doesnt-work-on-my-machine">UnityHub (or it doesn&rsquo;t work on my machine)</h2>
+<p>So due to my setup I basically tried to work with Unity on my Ubuntu operating system.
+It started harmlessly enough with the linux-typical download using <code>apt-get</code> to install the UnityHub.\n
+So far so good.\
+I installed the editor with the android built tools.
+So far so good.
+I downloaded the correct template.
+So far so good.
+I created a new project from it and opened it.
+So far so good.
+Took forever to load, but I thought &ldquo;oh well, my PC is just getting old&rdquo;.
+So far so good.
+It&rsquo;s done loading and my whole system crashes.
+Oh well, just restart and try again.
+Same story.
+Uninstall and reinstall.
+Same old, same old.
+I tried installing an older version, got exactly as far es before but with one crucial difference: It generated an error report!
+As the highly skilled computer science professional that I am I just submitted it as a bug report and immediately forgot about it.</p>
+<h2 id="roll-a-ball-the-first">Roll-a-Ball the first</h2>
+<h2 id="meta-quest-setup">Meta Quest Setup</h2>
+<h2 id="roll-a-ball-the-second---now-in-vr">Roll-a-Ball the second - now in VR</h2>
+<h2 id="openxr-default-runtime">OpenXR default runtime</h2>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://learn.unity.com/project/roll-a-ball">https://learn.unity.com/project/roll-a-ball</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
 </div>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id erat enim. Ut cursus magna sed luctus auctor. Sed eu augue dignissim, lobortis ipsum eu, dictum nisi. Integer varius ex maximus quam lobortis accumsan. Morbi mollis vulputate metus, aliquam feugiat arcu porta a. Quisque id justo ultricies, lacinia elit quis, pulvinar odio. Fusce feugiat at velit vitae lobortis. Nulla fringilla metus et sem mattis posuere &#x26a1;.</p>
-<p><strong>Heading</strong></p>
-<ul>
-<li>List item 1</li>
-<li>List item 2</li>
-<li>List item 3</li>
-</ul>
-<p>Cras ligula velit, aliquet ac orci dapibus, molestie ultricies libero. Donec at bibendum est. Phasellus vulputate dapibus quam vel accumsan. Curabitur at felis euismod, lobortis urna id, lobortis dolor. Cras tortor ligula, euismod quis lacus faucibus, condimentum fringilla dolor. Mauris in maximus nisi. Phasellus facilisis lacus quis mi cursus, a ornare mi maximus. Nullam nunc lacus, tincidunt varius risus nec, pellentesque vulputate ligula. Etiam id purus et tortor porta mattis. Donec id sapien nulla. Vivamus at malesuada tellus, id ultricies ante. Maecenas ullamcorper mi massa, at rutrum risus aliquet a. Donec sem tortor, molestie quis ex a, faucibus commodo augue. Morbi convallis sem vel tellus facilisis, et sodales felis consequat. Aliquam ut ante tristique, volutpat lectus vestibulum, egestas sapien.</p>
-<p>Donec tellus est, faucibus eget ultricies ac, posuere non augue. Fusce ultrices lectus quis nunc lacinia, non tincidunt lectus ultrices. Morbi sodales nisi at felis luctus, eu convallis tortor commodo. Morbi tristique nibh neque, vel tristique dolor laoreet eget. Phasellus felis erat, mattis at suscipit id, faucibus in dolor. In vitae odio at lectus tincidunt dignissim. Fusce risus nisl, hendrerit a ultricies vitae, porta id sapien. Nam elit nunc, hendrerit ut sem quis, ultrices varius leo. Nullam eget lectus in sapien venenatis iaculis at at turpis. Etiam iaculis magna porttitor augue tempus suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam suscipit nibh leo, in pellentesque urna luctus et. Duis diam ipsum, posuere nec tellus sit amet, dignissim feugiat massa. Etiam ut sollicitudin lorem. Quisque commodo libero non mauris viverra malesuada. Morbi vitae auctor felis.</p>
-<p>Maecenas ac dignissim dolor. Sed vitae nisl vel ante rutrum tincidunt ac et diam. Integer id dignissim quam. Vestibulum quis enim sit amet tellus tincidunt sagittis ut vitae nunc. Sed hendrerit, quam ut fermentum imperdiet, augue purus cursus felis, in ultricies elit mauris in risus. Morbi hendrerit imperdiet vehicula. Etiam porttitor magna eu quam laoreet ullamcorper. Etiam a erat ante. Curabitur pharetra, lacus in porttitor cursus, libero lacus consectetur dui, sit amet auctor tellus magna et enim. Pellentesque tristique molestie fringilla. Vivamus sit amet tincidunt quam. Morbi eu nisi quam. Nunc ultrices vel sem sit amet aliquam.</p>
 
       </span>
     </article>

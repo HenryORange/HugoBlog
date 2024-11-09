@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/HugoBlog/blog/</loc>
-    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/HugoBlog/blog/post1/</loc>
-    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/HugoBlog/</loc>
-    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/HugoBlog/blog/unityandquestsetup/</loc>
+    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/HugoBlog/blog/post2/</loc>
     <lastmod>2023-11-23T00:00:00+00:00</lastmod>
