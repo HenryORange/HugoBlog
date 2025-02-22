@@ -1,0 +1,248 @@
+<!doctype html><html lang="en-us">
+  <head><script src="/HugoBlog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=HugoBlog/livereload" data-no-instant defer></script>
+    
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="generator" content="Qubt theme for Hugo" />
+
+
+
+<title>Personal Blog</title>
+<meta name="title" content="Personal Blog" />
+
+
+
+  <meta name="author" content="Jan Henri Beyer" />
+
+
+
+
+  <meta name="description" content="A personal blog showcasing some computer science projects" />
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/HugoBlog/css/main.bundle.min.955b22a3fcff20511a11d9c7fdac7dd57e8293ee16e4d4ca0d6ab737f4895c3017582739cfd1f17a7c3feae23b42a8f4b01d7052fa2bc03a1430fa0669bf2d60.css" integrity="sha512-lVsio/z/IFEaEdnH/ax91X6Ck&#43;4W5NTKDWq3N/SJXDAXWCc5z9Hxenw/6uI7Qqj0sB1wUvorwDoUMPoGab8tYA==" />
+
+
+
+
+
+
+
+
+
+<script defer src="/HugoBlog/js/main.bundle.min.4657c962c90bb42241e3db9c00332ac44a2ff6a901654b8248b4e2f4b586571fd2aa672dcadf728d6f2135b0ea6088f21d1cf5302b4cae8557e0593f70081d72.js" integrity="sha512-RlfJYskLtCJB49ucADMqxEov9qkBZUuCSLTi9LWGVx/Sqmctyt9yjW8hNbDqYIjyHRz1MCtMroVX4Fk/cAgdcg=="></script>
+
+
+
+
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/HugoBlog/icon_hu_43ce6b80ca9b8187.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/HugoBlog/icon_hu_b7af2359199dfb4.png" />
+
+
+
+<meta property="og:url" content="http://localhost:1313/HugoBlog/ivar/rw/">
+  <meta property="og:site_name" content="Personal Blog">
+  <meta property="og:title" content="Redirected Walking">
+  <meta property="og:description" content="My attempts to utilize the RW Toolkit and how I only used the resetter.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="ivar">
+    <meta property="article:published_time" content="2024-12-12T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-12-12T00:00:00+00:00">
+    <meta property="og:image" content="http://localhost:1313/HugoBlog/thumbnail.jpeg">
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/HugoBlog/thumbnail.jpeg">
+  <meta name="twitter:title" content="Redirected Walking">
+  <meta name="twitter:description" content="My attempts to utilize the RW Toolkit and how I only used the resetter.">
+
+
+<script>
+  
+  if (localStorage.getItem("color-theme") === "dark" || (!("color-theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    document.documentElement.classList.add("dark");
+  } else {
+    document.documentElement.classList.remove("dark");
+  }
+</script>
+
+  </head>
+  <body class="flex h-screen flex-col justify-between bg-neutral-100 dark:bg-neutral-800">
+    <div>
+      <header class="sticky top-0 z-10 bg-neutral-100 dark:bg-neutral-800">
+        
+
+
+
+<section class="mx-auto flex max-w-screen-xl items-center justify-between p-4">
+  <a href="http://localhost:1313/HugoBlog/" class="flex items-center space-x-3">
+    
+      
+      <img src="/HugoBlog/logo_hu_e5f6802f5a05edc3.webp" class="h-8 w-8" alt="Logo" />
+    
+    <span class="self-center whitespace-nowrap text-2xl font-semibold text-slate-700 dark:text-slate-400">
+      Personal Blog
+    </span>
+  </a>
+  <div class="flex flex-row space-x-8">
+    <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
+      
+        <a href="/HugoBlog/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          Home
+        </a>
+      
+        <a href="/HugoBlog/ivar/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          Interaction in Virtual &amp; Augmented Reality
+        </a>
+      
+        <a href="/HugoBlog/about/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          About
+        </a>
+      
+    </nav>
+    <button id="theme-toggle" type="button" class="rounded-lg text-sm text-slate-700 hover:text-indigo-500 dark:text-slate-400" aria-label="theme-switcher">
+      <svg id="theme-toggle-dark-icon" class="hidden h-6 w-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+      </svg>
+      <svg id="theme-toggle-light-icon" class="hidden h-6 w-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+          fill-rule="evenodd"
+          clip-rule="evenodd"></path>
+      </svg>
+    </button>
+    <button id="hamburger-button" class="relative h-8 w-8 cursor-pointer text-3xl md:hidden" aria-label="hamburger-button">
+      <div
+        class="absolute top-4 -mt-0.5 h-[3px] w-8 rounded bg-slate-700 transition-all duration-500 before:absolute before:h-[3px] before:w-8 before:-translate-x-4 before:-translate-y-2.5 before:rounded before:bg-slate-700 before:transition-all before:duration-500 before:content-[''] after:absolute after:h-[3px] after:w-8 after:-translate-x-4 after:translate-y-2.5 after:rounded after:bg-slate-700 after:transition-all after:duration-500 after:content-[''] dark:bg-slate-400 before:dark:bg-slate-400 after:dark:bg-slate-400"></div>
+    </button>
+  </div>
+</section>
+<section id="mobile-menu" class="absolute hidden w-full origin-top animate-open-menu flex-col justify-center bg-neutral-100 text-4xl dark:bg-neutral-800">
+  <nav class="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
+    
+      <a href="/HugoBlog/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        Home
+      </a>
+    
+      <a href="/HugoBlog/ivar/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        Interaction in Virtual &amp; Augmented Reality
+      </a>
+    
+      <a href="/HugoBlog/about/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        About
+      </a>
+    
+  </nav>
+</section>
+
+      </header>
+      <main>
+        
+  
+  
+  
+  
+  
+
+
+  <div class="justify-left mx-auto mt-8 flex max-w-screen-md px-4">
+    <article>
+      <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
+        Redirected Walking
+      </h1>
+      <h2 class="mt-4 text-2xl text-slate-500 dark:text-slate-400">
+        Of the Redirected Walking Toolkit and Resetters
+      </h2>
+      <div class="mb-4 mt-2 text-sm text-slate-500 dark:text-slate-400">
+        Dec 12, 2024 - 2 minute read
+      </div>
+
+      
+        
+        <div class="flex flex-col">
+          <img class="mt-4 h-full w-full object-cover" src="/HugoBlog/RDWT_hu_f856e85872c0836c.webp" alt="feature image" height="413" width="736" />
+          
+            <span class="mb-4 mt-1 text-center text-sm text-slate-700 dark:text-slate-200">
+              The Redirected Walking Toolkit's UI
+            </span>
+          
+        </div>
+      
+
+      
+
+      <span class="prose prose-slate break-words text-lg text-slate-700 dark:prose-invert prose-pre:max-w-[90vw] md:prose-pre:max-w-screen-md dark:text-slate-200">
+        <p>Once I had settled on redirected walking, I didn&rsquo;t want to have to implement it all myself.
+I was sure, someone had already done that - and I was right.</p>
+<h2 id="the-redirected-walking-toolkit">The Redirected Walking Toolkit</h2>
+<p><img src="./images/RDWT.png" alt="You can see the UI of the Redirected Walking Toolkit" title="The Redirected Walking Toolkit's UI">
+The <a href="https://github.com/USC-ICT-MxR/RDWT">redirected walking toolkit</a> was released in 2016 by researchers from the USC Institute for Creative Technologies.
+It was intended to provide a way to examine and evaluate different redirected walking techniques.
+It can be run in a simulated mode, a keyboard controlled mode, and a physically space-tracked mode.
+I thought &ldquo;Great, I can just use the physically space-tracked mode and I&rsquo;m basically done, right?&rdquo;.
+Well, not quite.
+Firstly, the toolkit is designed to be &ldquo;easily&rdquo; expandable.
+This translates to a lot of interfaces and class abstractions, making the task of understanding how the toolkit works rather tedious.
+Secondly, it&rsquo;s just the publication of a research project.
+Therefore, the code isn&rsquo;t tidy at all, containing loads and loads of commented lines and cryptic annotations.
+Thirdly, the project was last updated <strong>nine</strong> years ago.
+So just copying the files to my Unity project didn&rsquo;t work.</p>
+<p>After a lot of struggling, a lot of cursing, and a lot of asking Chatbots and googling, I managed to add the toolkit to my project.
+However, I didn&rsquo;t get the normal redirection to work, because it required predetermined waypoints.
+Even though I placed these in the world space, I didn&rsquo;t get the redirection to work.</p>
+<h2 id="two-one-resetter-locomotion">Two-One-Resetter Locomotion</h2>
+<p>The resetter on the other hand actually worked right out of the box (once the box had been added to the project properly).
+The resetter&rsquo;s purpose it to reset the user if he deviates from his path and is about to wander out of his physical space.
+In particular a two-one-resetter works as follows.
+First the user reaches a border within his physical space, signalling that he is about to wander out of it.
+The resetter instructs the user to spin in place.
+Physically the user spins 180 degrees.
+However, the resetter injects additional rotation in a way that the user spins 360 degrees in the virtual world.
+Through this the user is facing into his physical space again, while continuing in the same virtual direction as before.
+And it worked!</p>
+
+<video width=100% controls>
+    <source src="images/twoOneResetterLocomotion.mp4" type="video/mp4">
+</video>
+<p>But as you can see the locomotion was mind-numbingly slow - or the parkour just too large.
+How might I ever overcome this?
+Read the next entry to find out.</p>
+
+      </span>
+    </article>
+  </div>
+
+      </main>
+    </div>
+    <footer>
+      <div class="flex flex-col justify-center p-10">
+  
+  <p class="text-center text-slate-700 dark:text-slate-400">
+    &copy;
+    2025
+    Jan Henri Beyer
+  </p>
+
+  
+  
+  
+  
+  <p class="text-center text-sm text-slate-700 dark:text-slate-400">
+    Published with <a class="hover:underline hover:decoration-indigo-500 hover:text-indigo-500" href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a> & <a class="hover:underline hover:decoration-indigo-500 hover:text-indigo-500" href="https://github.com/chrede88/qubt" target="_blank" rel="noopener noreferrer">Qubt</a>
+  </p>
+</div>
+
+    </footer>
+  </body>
+</html>
