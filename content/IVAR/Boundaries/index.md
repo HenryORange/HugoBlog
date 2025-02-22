@@ -3,9 +3,9 @@ title: Boundaries
 subtitle: "Of Guardians and Largest Interior Rectangle"
 summary: My journey of implementing a custom play area selection after the inability to reuse Meta's Guardian Boundaries.
 date: 2024-12-06
-cardimage: [comment] <> TODO add image
-featureimage: [comment] <> TODO add image
-caption: [comment] <> TODO add caption for image
+cardimage: BoundaryPreviewSphere.jpg
+featureimage: BoundaryPreviewSphere.jpg
+caption: A preview sphere next to a marker sphere
 authors:
 - Henri: author.jpeg
 ---
@@ -91,7 +91,7 @@ To make it more visible that the user was pinching, I made the right hand glow a
 ## Floor Markers with Invisible Hand Ray Cast
 Finally, I decided to remove the ray all together to make it feel even *freer*.
 To indicate the intersection between the now invisible ray and the ground plane, I placed a slightly less pronounced sphere that followed the intersection.
-[comment] ADD image of a preview sphere next to a placed sphere
+![You can see an orange marker sphere next to a slightly transparent preview sphere](./images/BoundaryPreviewSphere.jpg "A marker sphere next to the preview sphere")
 Now it was like viewing the preview of a fireball before placing it.
 
 ## Gestures as Button Input
@@ -99,9 +99,8 @@ I still needed a new `B` button.
 So I fell back to some of Meta's pre-implemented gestures.
 In particular, I used the thumbs up and down, both on the left hand.
 I used the thumbs up as a substitute `B` to confirm the selected area.
-[comment] ADD image of thumbs up from Meta
 And I finally added the ability to discard all the markers placed so far and start anew with a thumbs down.
-[comment] ADD image of thumbs down from Meta
+![You can see Meta's thumbs up and down pose](./images/BoundaryThumbs.png "Thumbs up and down")
 Overall these gestures were much easier to implement than anticipated.
 But then again, I relied on the reference implementation provided in Meta's `PoseExample Scene` in the Interaction SDK.
 Still, it for a simple gesture like a thumbs up you need **three** individual components.

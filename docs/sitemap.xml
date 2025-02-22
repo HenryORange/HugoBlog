@@ -2,16 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/HugoBlog/blog/</loc>
-    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/HugoBlog/ivar/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/HugoBlog/</loc>
-    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/HugoBlog/blog/unityandquestsetup/</loc>
+    <loc>http://localhost:1313/HugoBlog/ivar/finalthoughts/</loc>
+    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/HugoBlog/ivar/userstudy/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/HugoBlog/ivar/tutorial/</loc>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/HugoBlog/ivar/nicetohaves/</loc>
+    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/HugoBlog/ivar/interaction/</loc>
+    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/HugoBlog/ivar/locomotion/</loc>
+    <lastmod>2024-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/HugoBlog/ivar/rw/</loc>
+    <lastmod>2024-12-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/HugoBlog/ivar/boundaries/</loc>
+    <lastmod>2024-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/HugoBlog/ivar/ideas/</loc>
+    <lastmod>2024-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/HugoBlog/ivar/unityandquestsetup/</loc>
     <lastmod>2024-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/HugoBlog/blog/post2/</loc>
+    <lastmod>2023-11-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/HugoBlog/blog/</loc>
     <lastmod>2023-11-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/HugoBlog/blog/post3/</loc>

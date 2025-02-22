@@ -6,7 +6,7 @@ main:
 - name: Home
   url: /
   weight: 10
-- name: Interaction in Augmented & Virtual Reality
+- name: Interaction in Virtual & Augmented Reality
   url: /IVAR/
   weight: 20
 - name: About

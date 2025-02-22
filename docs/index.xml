@@ -6,13 +6,76 @@
     <description>Recent content on Personal Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/HugoBlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Silent Night</title>
+      <link>http://localhost:1313/HugoBlog/ivar/finalthoughts/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/HugoBlog/ivar/finalthoughts/</guid>
+      <description>My final thoughts on the project.</description>
+    </item>
+    <item>
+      <title>Testing it on Unsuspecting Friends</title>
+      <link>http://localhost:1313/HugoBlog/ivar/userstudy/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/HugoBlog/ivar/userstudy/</guid>
+      <description>On my time testing it myself and on two &amp;ldquo;friends&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>In-Game Tutorial</title>
+      <link>http://localhost:1313/HugoBlog/ivar/tutorial/</link>
+      <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/HugoBlog/ivar/tutorial/</guid>
+      <description>How I implemented tutorial messages to show users the &amp;lsquo;right&amp;rsquo; way to play.</description>
+    </item>
+    <item>
+      <title>Making it Pretty</title>
+      <link>http://localhost:1313/HugoBlog/ivar/nicetohaves/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/HugoBlog/ivar/nicetohaves/</guid>
+      <description>What don&amp;rsquo;t we do to make things pretty?</description>
+    </item>
+    <item>
+      <title>Interaction Technique</title>
+      <link>http://localhost:1313/HugoBlog/ivar/interaction/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/HugoBlog/ivar/interaction/</guid>
+      <description>My journey to implement my interaction technique.</description>
+    </item>
+    <item>
+      <title>Locomotion Technique</title>
+      <link>http://localhost:1313/HugoBlog/ivar/locomotion/</link>
+      <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/HugoBlog/ivar/locomotion/</guid>
+      <description>My unique way of utilizing a resetter to become a figure skater.</description>
+    </item>
+    <item>
+      <title>Redirected Walking</title>
+      <link>http://localhost:1313/HugoBlog/ivar/rw/</link>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/HugoBlog/ivar/rw/</guid>
+      <description>My attempts to utilize the RW Toolkit and how I only used the resetter.</description>
+    </item>
+    <item>
+      <title>Boundaries</title>
+      <link>http://localhost:1313/HugoBlog/ivar/boundaries/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/HugoBlog/ivar/boundaries/</guid>
+      <description>My journey of implementing a custom play area selection after the inability to reuse Meta&amp;rsquo;s Guardian Boundaries.</description>
+    </item>
+    <item>
+      <title>Ideas &amp; Project Direction</title>
+      <link>http://localhost:1313/HugoBlog/ivar/ideas/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/HugoBlog/ivar/ideas/</guid>
+      <description>My initial ideas on where to take this project.</description>
+    </item>
+    <item>
       <title>Unity &amp; Quest Setup</title>
-      <link>http://localhost:1313/HugoBlog/blog/unityandquestsetup/</link>
+      <link>http://localhost:1313/HugoBlog/ivar/unityandquestsetup/</link>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/HugoBlog/blog/unityandquestsetup/</guid>
+      <guid>http://localhost:1313/HugoBlog/ivar/unityandquestsetup/</guid>
       <description>Setup of the Unity Hub and the Meta Quest 2 as well as implementation of Roll-a-Ball classically and in VR.</description>
     </item>
     <item>

@@ -3,9 +3,9 @@ title: Redirected Walking
 subtitle: "Of the Redirected Walking Toolkit and Resetters"
 summary: My attempts to utilize the RW Toolkit and how I only used the resetter.
 date: 2024-12-12
-cardimage: [comment] <> TODO add image
-featureimage: [comment] <> TODO add image
-caption: [comment] <> TODO add caption for image
+cardimage: RDWT.png
+featureimage: RDWT.png
+caption: The Redirected Walking Toolkit's UI
 authors:
 - Henri: author.jpeg
 ---
@@ -13,7 +13,7 @@ Once I had settled on redirected walking, I didn't want to have to implement it 
 I was sure, someone had already done that - and I was right.
 
 ## The Redirected Walking Toolkit
-[comment] ADD image from the toolkit UI
+![You can see the UI of the Redirected Walking Toolkit](./images/RDWT.png "The Redirected Walking Toolkit's UI")
 The [redirected walking toolkit](https://github.com/USC-ICT-MxR/RDWT) was released in 2016 by researchers from the USC Institute for Creative Technologies.
 It was intended to provide a way to examine and evaluate different redirected walking techniques.
 It can be run in a simulated mode, a keyboard controlled mode, and a physically space-tracked mode.

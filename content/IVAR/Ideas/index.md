@@ -3,9 +3,9 @@ title: Ideas & Project Direction
 subtitle: "Of Redirected Walking and Severally Limited Space"
 summary: My initial ideas on where to take this project.
 date: 2024-11-12
-cardimage: [comment] <> TODO add image
-featureimage: [comment] <> TODO add image
-caption: [comment] <> TODO add caption for image
+cardimage: bridges.png
+featureimage: bridges.png
+caption: Bridges spanning the abyss
 authors:
 - Henri: author.jpeg
 ---
@@ -28,10 +28,10 @@ Well, that was enough to convince me, so I took on the challenge of getting redi
 
 ## Overall Theme
 For the overall theme, my idea was to have my players become a wizard, floating over an abyss.
-[comment] ADD image from presentation
+![You see a street that is an abyss](./images/noGround.png "A street with no ground")
 So basically drop away the street of the provided parkour.
 To move I imagined the player to point where they wanted to go and raise ethereal bridges to go there - the bridges conveniently just as long as the diagonal of the available play space.
-[comment] ADD other image from presentation
+![You can see bridges spanning the abyss to a specified point](./images/bridges.png "Bridges over the abyss")
 My idea was to place the bridges in such angles to one another, that I would be able to redirect the user where he wanted to go.
 I'm still convinced that it would make a killer theme for a VR game.
 However, it's not quite where I ended up ... so keep on reading to find out!

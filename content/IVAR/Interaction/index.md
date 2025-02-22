@@ -3,8 +3,8 @@ title: Interaction Technique
 subtitle: "Of Invisible Rays and Weird Finger Constellations"
 summary: My journey to implement my interaction technique.
 date: 2025-01-09
-cardimage: ./images/outline.png
-featureimage: ./images/outline.png
+cardimage: outline.jpg
+featureimage: outline.jpg
 caption: An outlined start button
 authors:
 - Henri: author.jpeg

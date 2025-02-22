@@ -3,9 +3,9 @@ title: In-Game Tutorial
 subtitle: "Of Floating Videos and Screen Captures"
 summary: How I implemented tutorial messages to show users the 'right' way to play.
 date: 2025-02-14
-cardimage: [comment] <> TODO add image
-featureimage: [comment] <> TODO add image
-caption: [comment] <> TODO add caption for image
+cardimage: TutorialScreen.jpg
+featureimage: TutorialScreen.jpg
+caption: The tutorial screen explaining locomotion
 authors:
 - Henri: author.jpeg
 ---
@@ -18,7 +18,7 @@ Therefore, I decided to implement a tutorial.
 
 ## Floating Screens
 To do so, I took inspiration from Meta's `PoseExample Scene`, which is part of their Interaction SDK.
-[comment] ADD image of meta scene
+![You can see a floating screen with a hand gesture on it](./images/TutorialMeta.png "Meta's tutorial screen")
 
 I went ahead and replicated their design.
 It consists of a floating screen, similar in design to a larger version of the buttons on the player's left wrist.
@@ -27,7 +27,7 @@ The upper part is a screen for a video to play.
 The lower part is to display texts.
 Both are constrained by a vertical layout group.
 
-[comment] ADD image of unity hierarchy
+![You can see the unity hierarchy of a tutorial screen](./images/TutorialUnityHierarchy.png "The hierarchy of a tutorial screen")
 
 Interestingly, the screen consists of both a flat image and a video playback.
 As far as I've understood, the image acts as a placeholder for the texture, the video is projected onto.
@@ -57,5 +57,4 @@ Since I wanted them to be as short and precise as possible I reduced them to the
 For this I used VLC's build-in function of creating clips from videos.
 
 After adding them to Unity, I'm satisfied with the final result.
-
-[Comment] ADD video of tutorial screen
+{{< video "images/TutorialScreenVideo.mp4" >}}
