@@ -165,7 +165,7 @@
         Of Spinning and Resulting Disorientation
       </h2>
       <div class="mb-4 mt-2 text-sm text-slate-500 dark:text-slate-400">
-        Feb 21, 2025 - 1 minute read
+        Feb 21, 2025 - 3 minute read
       </div>
 
       
@@ -187,15 +187,34 @@
 But it was even more fun watching my friends test it (and hoping they would still be my friends afterward).</p>
 <h2 id="general-observations">General Observations</h2>
 <p>So overall, I found that my experience with the system gave me a huge advantage over my friends, allowing me to complete the tasks way faster.
-I also noticed, that the reset gesture with the thumbs down was sometimes triggered on accident when trying to switch between speeds.
+I also noticed, that the reset gesture with the thumbs down was often triggered on accident when trying to switch between speeds.
 That led to some frustration, but was pretty fun to observe from the outside.</p>
 <p>After a short period I also noticed that it is way more fun when I&rsquo;m able to see what my friends can see.
 So I started streaming their view from then on.</p>
 <p>As metrics to evaluate my work against, I chose the completion time, the score next to it, and the <a href="https://omb.report/icr/202012-0920-016/doc/107354700">Virtual Reality Sickness Questionnaire (VRSQ)</a>.
-The VRSQ is specifically designed to allow for judgements on ones disorientation after VR experiences and I chose it, because my locomotion technique messes with your sense of your physical orientation.</p>
+The VRSQ is specifically designed to allow for judgements on ones disorientation after VR experiences and I chose it, because my locomotion technique messes with your sense of your physical orientation.
+It is made up of the average of two individual scores - one for oculomotor discomfort and one for disorientation.
+Oculomotor discomfort refers to issues related to eye movement and visual perception.
+In this context, disorientation refers to a sense of spatial confusion or loss of balance.</p>
 <h2 id="facts--figures">Facts &amp; Figures</h2>
-<p>[comment] ADD graph with time and score
-[comment] ADD graph with motion sickness score</p>
+<p><img src="./images/TimeCoins.png" alt="You could see a scatter plot of time versus coins collected." title="The participants time on the x-axis and coins collected on the y-axis">
+Overall, my own score falls heavily out of the range established by my three friends.
+It took them between fifteen and twenty minutes to complete the parkour, while I only took roughly six.
+Therefore, further work could look into whether experience with the system makes it easier to use or if I just have an advantage because I built it.</p>
+<p>The more fine-grained control was good though.
+Collecting snowflakes worked well and the (close-ranged) interaction was surprisingly accurate.</p>
+<p><img src="./images/VRSQ.png" alt="You could see a bar plot with the participants VRSQ scores." title="Participants VRSQ total and partial scores">
+But overall the more interesting metric is the VRSQ score.
+As you can see, the oculomotor discomfort score was often higher than the disorientation score.
+This surprised me, because I thought my locomotion technique would be pretty disorienting.
+But apparently the visual representation was often more taxing.
+This might be due to the performance my shader takes.
+Or the strain streaming the video feed put on the headset.
+Therefore, looking at the performance in detail and then taking a second look at the oculomotor discomfort scores could be a good area of improvement.</p>
+<p>In general, the scores are all pretty low.
+The VRSQ and its partial scores are measured on a scale of 0 to 100.
+With the highest overall score clocking in at 35 and an average of 20, I think my locomotion is a success.
+But since a study with only four participants isn&rsquo;t that meaningful, further work could go into repeating the experiment with more participants.</p>
 
       </span>
     </article>

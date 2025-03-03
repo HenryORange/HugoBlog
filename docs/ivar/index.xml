@@ -6,8 +6,15 @@
     <description>Recent content in Interaction in Augmented &amp; Virtual Reality on Personal Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/HugoBlog/ivar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Start to Finish</title>
+      <link>http://localhost:1313/HugoBlog/ivar/summary/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/HugoBlog/ivar/summary/</guid>
+      <description>A summary of the whole project if you don&amp;rsquo;t want to read the individual blog posts.</description>
+    </item>
     <item>
       <title>Silent Night</title>
       <link>http://localhost:1313/HugoBlog/ivar/finalthoughts/</link>

@@ -1,0 +1,351 @@
+<!doctype html><html lang="en-us">
+  <head><script src="/HugoBlog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=HugoBlog/livereload" data-no-instant defer></script>
+    
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="generator" content="Qubt theme for Hugo" />
+
+
+
+<title>Personal Blog</title>
+<meta name="title" content="Personal Blog" />
+
+
+
+  <meta name="author" content="Jan Henri Beyer" />
+
+
+
+
+  <meta name="description" content="A personal blog showcasing some computer science projects" />
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/HugoBlog/css/main.bundle.min.955b22a3fcff20511a11d9c7fdac7dd57e8293ee16e4d4ca0d6ab737f4895c3017582739cfd1f17a7c3feae23b42a8f4b01d7052fa2bc03a1430fa0669bf2d60.css" integrity="sha512-lVsio/z/IFEaEdnH/ax91X6Ck&#43;4W5NTKDWq3N/SJXDAXWCc5z9Hxenw/6uI7Qqj0sB1wUvorwDoUMPoGab8tYA==" />
+
+
+
+
+
+
+
+
+
+<script defer src="/HugoBlog/js/main.bundle.min.4657c962c90bb42241e3db9c00332ac44a2ff6a901654b8248b4e2f4b586571fd2aa672dcadf728d6f2135b0ea6088f21d1cf5302b4cae8557e0593f70081d72.js" integrity="sha512-RlfJYskLtCJB49ucADMqxEov9qkBZUuCSLTi9LWGVx/Sqmctyt9yjW8hNbDqYIjyHRz1MCtMroVX4Fk/cAgdcg=="></script>
+
+
+
+
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/HugoBlog/icon_hu_43ce6b80ca9b8187.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/HugoBlog/icon_hu_b7af2359199dfb4.png" />
+
+
+
+<meta property="og:url" content="http://localhost:1313/HugoBlog/ivar/summary/">
+  <meta property="og:site_name" content="Personal Blog">
+  <meta property="og:title" content="From Start to Finish">
+  <meta property="og:description" content="A summary of the whole project if you don’t want to read the individual blog posts.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="ivar">
+    <meta property="article:published_time" content="2025-02-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-02-28T00:00:00+00:00">
+    <meta property="og:image" content="http://localhost:1313/HugoBlog/thumbnail.jpeg">
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/HugoBlog/thumbnail.jpeg">
+  <meta name="twitter:title" content="From Start to Finish">
+  <meta name="twitter:description" content="A summary of the whole project if you don’t want to read the individual blog posts.">
+
+
+<script>
+  
+  if (localStorage.getItem("color-theme") === "dark" || (!("color-theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+    document.documentElement.classList.add("dark");
+  } else {
+    document.documentElement.classList.remove("dark");
+  }
+</script>
+
+  </head>
+  <body class="flex h-screen flex-col justify-between bg-neutral-100 dark:bg-neutral-800">
+    <div>
+      <header class="sticky top-0 z-10 bg-neutral-100 dark:bg-neutral-800">
+        
+
+
+
+<section class="mx-auto flex max-w-screen-xl items-center justify-between p-4">
+  <a href="http://localhost:1313/HugoBlog/" class="flex items-center space-x-3">
+    
+      
+      <img src="/HugoBlog/logo_hu_e5f6802f5a05edc3.webp" class="h-8 w-8" alt="Logo" />
+    
+    <span class="self-center whitespace-nowrap text-2xl font-semibold text-slate-700 dark:text-slate-400">
+      Personal Blog
+    </span>
+  </a>
+  <div class="flex flex-row space-x-8">
+    <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
+      
+        <a href="/HugoBlog/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          Home
+        </a>
+      
+        <a href="/HugoBlog/ivar/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          Interaction in Virtual &amp; Augmented Reality
+        </a>
+      
+        <a href="/HugoBlog/about/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          About
+        </a>
+      
+    </nav>
+    <button id="theme-toggle" type="button" class="rounded-lg text-sm text-slate-700 hover:text-indigo-500 dark:text-slate-400" aria-label="theme-switcher">
+      <svg id="theme-toggle-dark-icon" class="hidden h-6 w-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+      </svg>
+      <svg id="theme-toggle-light-icon" class="hidden h-6 w-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+          fill-rule="evenodd"
+          clip-rule="evenodd"></path>
+      </svg>
+    </button>
+    <button id="hamburger-button" class="relative h-8 w-8 cursor-pointer text-3xl md:hidden" aria-label="hamburger-button">
+      <div
+        class="absolute top-4 -mt-0.5 h-[3px] w-8 rounded bg-slate-700 transition-all duration-500 before:absolute before:h-[3px] before:w-8 before:-translate-x-4 before:-translate-y-2.5 before:rounded before:bg-slate-700 before:transition-all before:duration-500 before:content-[''] after:absolute after:h-[3px] after:w-8 after:-translate-x-4 after:translate-y-2.5 after:rounded after:bg-slate-700 after:transition-all after:duration-500 after:content-[''] dark:bg-slate-400 before:dark:bg-slate-400 after:dark:bg-slate-400"></div>
+    </button>
+  </div>
+</section>
+<section id="mobile-menu" class="absolute hidden w-full origin-top animate-open-menu flex-col justify-center bg-neutral-100 text-4xl dark:bg-neutral-800">
+  <nav class="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
+    
+      <a href="/HugoBlog/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        Home
+      </a>
+    
+      <a href="/HugoBlog/ivar/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        Interaction in Virtual &amp; Augmented Reality
+      </a>
+    
+      <a href="/HugoBlog/about/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        About
+      </a>
+    
+  </nav>
+</section>
+
+      </header>
+      <main>
+        
+  
+  
+  
+  
+  
+
+
+  <div class="justify-left mx-auto mt-8 flex max-w-screen-md px-4">
+    <article>
+      <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
+        From Start to Finish
+      </h1>
+      <h2 class="mt-4 text-2xl text-slate-500 dark:text-slate-400">
+        A Summary - Now In HD
+      </h2>
+      <div class="mb-4 mt-2 text-sm text-slate-500 dark:text-slate-400">
+        Feb 28, 2025 - 7 minute read
+      </div>
+
+      
+        
+        <div class="flex flex-col">
+          <img class="mt-4 h-full w-full object-cover" src="/HugoBlog/videoThumbnail_hu_10c0e4efa1fd149c.webp" alt="feature image" height="414" width="736" />
+          
+            <span class="mb-4 mt-1 text-center text-sm text-slate-700 dark:text-slate-200">
+              The complete playthrough's thumbnail
+            </span>
+          
+        </div>
+      
+
+      
+
+      <span class="prose prose-slate break-words text-lg text-slate-700 dark:prose-invert prose-pre:max-w-[90vw] md:prose-pre:max-w-screen-md dark:text-slate-200">
+        <p>Welcome to the complete summary of my project VR-Redirected-Winter as part of the lecture Interaction in Augmented &amp; Virtual Reality!
+In here I get straight to the points to make it less time-consuming to see it all, if you&rsquo;re into that. <br>
+And without further ado &hellip;</p>
+<h2 id="introduction--motivation">Introduction &amp; Motivation</h2>
+<p><img src="./images/bridges.png" alt="You can see bridges spanning the abyss to a specified point" title="Bridges over the abyss">
+So the idea was to transverse a parkour in VR or AR with a locomotion and an interaction technique, which we should implement ourselves.
+I chose to work on redirected walking, because I found it quite appealing to explore a limitless virtual world in a narrow physical space - without even noticing that it is that narrow.
+Therefore, my initial idea can be seen in the image above.
+I wanted to remove the parkour&rsquo;s ground and summon ethereal bridges to span this abyss.
+And because they are ethereal they can lead anywhere, giving the player the freedom to explore anywhere he chooses, experience a vast world from a small physical space.</p>
+<h2 id="problem-statement">Problem Statement</h2>
+<p>The specific challenge I set for myself was to get my redirected walking to work in the space available to me - roughly ONE whole square meter.
+Of course without it being imperceptible, because that would require a lot more space.
+I wanted to give my players a sense of <em>freedom to explore</em>, locomotion unbound by their physical space or the direction they want to explore in (well except the sky, because I didn&rsquo;t add any flying).</p>
+<p>For more insight into my ideas and initial project directions, take a look at <a href="../ideas/">Ideas &amp; Project Direction</a>.</p>
+<hr>
+<h2 id="solution">Solution</h2>
+<p>Since this was my first ever project with Unity and a Meta Quest, I started out by setting them both up and familiarizing myself.
+Wasn&rsquo;t as easy as I had hoped.
+Check out <a href="../unityandquestsetup/">Unity &amp; Quest Setup</a>, if you&rsquo;re interested.</p>
+<h3 id="first-staging--motion">First Staging &amp; Motion</h3>
+<p>Since I was trying to keep my player in a limited physical space for my redirected walking to work, I started out by creating a custom play area with a controller within the guardian boundaries.<br>
+<a href="#boundaries">Wasn&rsquo;t fun.</a></p>
+<p>Once I had that, I tried to use the Redirected Walking Toolkit to use my now physically tracked space.<br>
+<a href="#two-one-resetter">Wasn&rsquo;t fun either.</a><br>
+(To be honest both kind of were, but they were also really frustrating since I had hoped that most of the work would have already been done by others.)
+Finally, both kind of worked and I took my first steps on the parkour:
+
+<video width=100% controls>
+    <source src="images/twoOneResetterLocomotion.mp4" type="video/mp4">
+</video>
+Painful, mind-numbingly slow steps &hellip;</p>
+<h3 id="acceleration--interaction">Acceleration &amp; Interaction</h3>
+<p>So after the interim presentations I got the idea to utilize only this part of the redirected walking, I had gotten to work, as a game mechanic.
+The turning reminded me a little of ice skating, so I went ahead and gave my players a little push on completing their turns.</p>
+<p>With this out of the way, I experimented with the direction of the push - and quickly settled on gaze controlled, because slowing down in a direction you&rsquo;re not faced without the feeling of acceleration was quite unpleasant.
+I also added a dynamic field of view to further reduce motion sickness.
+See <a href="../locomotion/">Locomotion Technique</a> for more details.
+<img src="./images/ReducedFOV.png" alt="You can see the FOV aperture" title="The reduced FOV aperture"></p>
+<p>I still had an interaction to implement and I wanted to stay within my paradigm of <em>free exploration</em>.
+So I went for a ray cast from the palm of the players right hand (and eventually hid the ray).
+<img src="./images/outline.jpg" alt="You&rsquo;d see a start button that has a white outline highlighting" title="An outlined start button with a ray hitting it">
+I split the function of aiming and selecting between both hands to increase the accuracy, because I noticed that the jiggle of my ray from pinching often led to me missing my mark.
+For an in-depth look at this go to <a href="../interaction/">Interaction Technique</a>.</p>
+<h3 id="play-area-selection-rework--beautification">Play Area Selection Rework &amp; Beautification</h3>
+<p>With my interaction in place, I went back and reworked my play area selection to be up to my new standards.
+I switched the controller selection to ray casting, hid the ray and added gesture detection to still have more than one button.
+<img src="./images/BoundaryPreviewSphere.jpg" alt="You can see an orange marker sphere next to a slightly transparent preview sphere" title="A marker sphere next to the preview sphere">
+All quite slick I might add.</p>
+<p>I also made it a consistent game.
+Since I had my locomotion&rsquo;s analogy to ice skating, I implemented a winter theme.
+For this I added a snow shader, changed the soundscape, added app icons, and replaced the coins with snowflakes.
+(See <a href="../nicetohaves/">Making it Pretty</a>.)
+<img src="./images/SnowflakeCoins.jpg" alt="You can see a snowflake coin" title="The snowflake coins"></p>
+<p>After the final presentation I realized, that apparently my game in combination with my verbal instructions wasn&rsquo;t as intuitive to understand as I had assumed.
+So I created tutorials for the play area creation, the locomotion, and the interaction.
+(See <a href="../tutorial/">In-Game Tutorial</a>.)
+
+<video width=100% controls>
+    <source src="images/TutorialScreenVideo.mp4" type="video/mp4">
+</video></p>
+<h2 id="implementation-details">Implementation Details</h2>
+<p>The largest challenges throughout the project were the <a href="../boundaries/">Boundaries</a> and the <a href="../rw/">Redirected Walking</a> or the partial lack thereof.</p>
+<h3 id="boundaries">Boundaries</h3>
+<p>I tried to retrieve the guardian boundaries, that the headset has to have to enter virtual reality anyway.
+Unfortunately, the OVRManager&rsquo;s boundaries did not match the real ones.
+No matter how many different approaches I tried, how many Stack Overflow entries I read, I didn&rsquo;t get it to work.
+Not any more than that I&rsquo;d get some local boundaries, that didn&rsquo;t line up even remotely with the actual guardian.</p>
+<p>So I switched to the approach, that the players have to create the boundaries themselves.
+For this I had them place markers on the ground to enclose an area themselves.
+<img src="./images/RayAndMarkerSpheres.jpeg" alt="You&rsquo;d see a ray pointing to the floor with two orange marker spheres on it" title="OVR boundaries in red and marker spheres in orange"></p>
+<p>Since the Redirected Walking Toolkit worked with a rectangular physical space, I created the largest interior rectangle within the enclosed area.
+After trying to implement this myself, I gave up on it and just used a pre-existing C# implementation.
+<img src="./images/LIR.jpeg" alt="The parkour with a green rectangle underfoot" title="The play area as the largest interior rectangle in the enclosed area"></p>
+<h3 id="two-one-resetter">Two-One-Resetter</h3>
+<p>My second large challenge was the utilization of the Redirected Walking Toolkit - or my inability to do so.
+After initial problems and then getting the original Unity version, I dove into understanding the toolkit&rsquo;s structure.
+Unfortunately, it had grown as a research project.
+Therefore, it lacked documentation, had large sections commented out, and was actually designed for modularity, which added another layer of complexity.
+I only managed to get the resetter to work.
+The resetter is designed to steer the player back into the play area if he manages to walk out of it.
+To be fair, with my space limitation that would have been all the time anyway.
+The resetter I got to work was a two-one-resetter.
+Physically you turn by 180 degrees, while virtually you turn a full 360 degrees.
+Through this you&rsquo;re able to keep walking in your original virtual direction while returning to your play area.
+
+<video width=100% controls>
+    <source src="images/LocomotionTutorial.mp4" type="video/mp4">
+</video>
+After the interim presentations, I got the idea of utilizing the resetter as my core game mechanic, a little like ice skating.
+So my inability to fully integrate the toolkit gave rise to a new mechanic based on the resetter.
+And it still solved my original challenge of free locomotion in a really limited physical space.
+I added a little push to on completion of the reset so you wouldn&rsquo;t take forever transversing the parkour.</p>
+<p>For more details also check out <a href="../locomotion/">Locomotion Technique</a>.</p>
+<h2 id="evaluation">Evaluation</h2>
+<p>Because my developmental focus was on my locomotion, I chose to keep my measurements simple.
+I recorded the total time and the total coins collected.
+I also had my participants fill out the Virtual Reality Sickness Questionnaire (VRSQ), to measure the impact of my locomotion on them.</p>
+<p>Including myself I had four participants, all students between 19 and 24.
+<img src="./images/TimeCoins.png" alt="You could see a scatter plot of time versus coins collected." title="The participants time on the x-axis and coins collected on the y-axis">
+As you can see, my time falls severely out of the range established by my other three participants.
+This suggests, that significant improvement might be gained by training with this locomotion technique.</p>
+<p><img src="./images/VRSQ.png" alt="You could see a bar plot with the participants VRSQ scores." title="Participants VRSQ total and partial scores">
+Overall, the VRSQ consists of the average of the oculomotor discomfort and the disorientation scores.
+The oculomotor discomfort was often higher than the disorientation when using my locomotion.
+This might suggest, that the games performance wasn&rsquo;t adequate, since oculomotor discomfort can easily be caused by this.
+But overall, the highest VRSQ score at 35 and an average of 20 out of 100 are quite the success for my locomotion.</p>
+<p>For a more in-depth description of my evaluation have a look at <a href="../userstudy/">Testing it on Unsuspecting Friends</a>.</p>
+<hr>
+<h2 id="conclusion"><a href="../finalthoughts/">Conclusion</a></h2>
+<p>In conclusion, I think my system solved the challenge I set for myself.
+It was quite off from my original idea, but I managed to implement a locomotion that allows free exploration from a small physical space.</p>
+<p>Overall, I&rsquo;ve learned that toolkits don&rsquo;t necessarily make it easier to achieve one&rsquo;s goal.
+Especially, when they haven&rsquo;t been updated in a while and when they were not specifically designed for the exact task you want to use them for.
+But more importantly, I think I&rsquo;ve learned how to use Unity even in the face of frustration - a skill that surely will come in handy.</p>
+<h2 id="video">Video</h2>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/HOvFqeYuPFk" frameborder="0" allowfullscreen></iframe>
+</div>
+<style>
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+    overflow: hidden;
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+<p>Here&rsquo;s the video of my complete playthrough.
+Enjoy it!<br>
+If you want to try the game for yourself, download the apk <a href="https://github.com/HenryORange/VR-locomotion-parkour/releases/tag/v1.0.0">here</a>.</p>
+
+      </span>
+    </article>
+  </div>
+
+      </main>
+    </div>
+    <footer>
+      <div class="flex flex-col justify-center p-10">
+  
+  <p class="text-center text-slate-700 dark:text-slate-400">
+    &copy;
+    2025
+    Jan Henri Beyer
+  </p>
+
+  
+  
+  
+  
+  <p class="text-center text-sm text-slate-700 dark:text-slate-400">
+    Published with <a class="hover:underline hover:decoration-indigo-500 hover:text-indigo-500" href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a> & <a class="hover:underline hover:decoration-indigo-500 hover:text-indigo-500" href="https://github.com/chrede88/qubt" target="_blank" rel="noopener noreferrer">Qubt</a>
+  </p>
+</div>
+
+    </footer>
+  </body>
+</html>

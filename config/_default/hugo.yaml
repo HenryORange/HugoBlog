@@ -13,3 +13,7 @@ enableEmoji: true
 disableKinds: ['taxonomy', 'term']
 languageCode: 'en-us'
 publishDir: 'docs'
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
